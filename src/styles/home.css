@@ -1,0 +1,135 @@
+/* Hero Section Styles */
+.hero-section {
+  background-color: #FFFFFF;
+  padding: 40px 0;
+}
+
+.hero-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 40px; /* Increased gap to match the spacing in the image */
+}
+
+.hero-text {
+  max-width: 45%; /* Reduced to ensure text stays on the left */
+  padding-right: 20px; /* Added padding to prevent overlap */
+  opacity: 0; /* Start with opacity 0 for animation */
+  animation: slideInLeft 1s ease-in-out forwards; /* Left slide animation */
+}
+
+.hero-text h1 {
+  font-size: 42px; /* Adjusted to match the image proportions */
+  line-height: 1.1; /* Tighter line height to match the design */
+  color: #000000;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.hero-text h1 span {
+  color: #CF3B33;
+}
+
+.hero-text p {
+  font-size: 16px; /* Adjusted to match the image */
+  color: #666666;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.hero-button {
+  background-color: #CF3B33;
+  color: #FFFFFF;
+  padding: 10px 25px; /* Adjusted padding to match the button size in the image */
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px; /* Adjusted to match the image */
+  font-weight: 500;
+  transition: background-color 0.3s;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-button:hover {
+  background-color: #1167AB;
+}
+
+.hero-image {
+  max-width: 50%; /* Slightly increased to fit the image proportions */
+  display: flex;
+  justify-content: flex-end; /* Ensures the image stays on the right */
+  opacity: 0; /* Start with opacity 0 for animation */
+  animation: slideInRight 1s ease-in-out forwards; /* Right slide animation */
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 550px; /* Set a specific max-width to match the image size in the design */
+  max-height: 350px; /* Set a max-height to prevent the image from being too tall */
+  object-fit: cover; /* Ensures the image scales properly without distortion */
+  border-radius: 10px;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  0% {
+      transform: translateX(-100px); /* Start 100px left */
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0); /* End at original position */
+      opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+      transform: translateX(100px); /* Start 100px right */
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0); /* End at original position */
+      opacity: 1;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+  }
+
+  .hero-text {
+      max-width: 100%;
+      padding-right: 0;
+      animation: slideInLeft 1s ease-in-out forwards; /* Keep animation on mobile */
+  }
+
+  .hero-text h1 {
+      font-size: 32px; /* Adjusted for mobile */
+  }
+
+  .hero-text p {
+      font-size: 14px;
+  }
+
+  .hero-image {
+      max-width: 100%;
+      justify-content: center;
+      margin-top: 20px;
+      animation: slideInRight 1s ease-in-out forwards; /* Keep animation on mobile */
+  }
+
+  .hero-image img {
+      max-width: 100%;
+      max-height: 300px; /* Adjusted for mobile */
+  }
+}

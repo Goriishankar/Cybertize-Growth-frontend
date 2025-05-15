@@ -1,0 +1,116 @@
+/* Content Creation Section Styles */
+.contentcreation-row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    align-items: center;
+}
+/* 
+.contentcreation-row.reverse {
+    flex-direction: row-reverse;
+} */
+
+.contentcreation-image-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentcreation-image {
+    width: 330px;
+    height: auto;
+    display: block;
+}
+
+.contentcreation-content-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    text-align: right; /* Right-align all text and content inside */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensure button aligns to the right */
+}
+
+.contentcreation-content-col h1 {
+    font-size: 36px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contentcreation-content-col p {
+    font-size: 16px;
+    color: #666666;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.growth-button {
+    background-color: #CF3B33;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.growth-button:hover {
+    background-color: #1167AB;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .contentcreation-row,
+    .contentcreation-row.reverse {
+        flex-direction: column; /* Stack vertically on mobile */
+    }
+
+    .contentcreation-image-col,
+    .contentcreation-content-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .contentcreation-content-col {
+        align-items: center; /* Center-align on mobile for consistency */
+    }
+
+    .contentcreation-image-col {
+        margin-bottom: 20px; /* Space between image and text */
+        order: 1; /* Ensure image comes first */
+    }
+
+    .contentcreation-content-col {
+        order: 2; /* Ensure content comes after image */
+        align-items: center; /* Center-align on mobile */
+    }
+
+    .contentcreation-content-col h1 {
+        font-size: 28px;
+    }
+
+    .contentcreation-content-col p {
+        font-size: 14px;
+    }
+
+    .growth-button {
+        font-size: 12px;
+        padding: 8px 25px;
+    }
+}

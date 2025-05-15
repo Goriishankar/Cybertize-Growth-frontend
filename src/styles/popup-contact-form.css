@@ -1,0 +1,202 @@
+/* Popup Contact Form Styles */
+.popup-contact-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 999;
+    backdrop-filter: blur(5px); /* Blur effect for background */
+    -webkit-backdrop-filter: blur(5px); /* For Safari compatibility */
+  }
+  
+  .popup-contact-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF; /* Background White */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 90%;
+    max-width: 500px; /* Reduced width for compactness */
+    height: auto; /* Height auto to fit content */
+    overflow-y: hidden; /* No scrolling */
+  }
+  
+  .popup-contact-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px; /* Reduced padding */
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .popup-contact-form-header h3 {
+    font-size: 20px; /* Reduced font size */
+    color: #000000; /* Text Black */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    font-size: 18px; /* Reduced font size */
+    color: #CF3B33; /* Primary Red */
+    transition: color 0.3s ease;
+  }
+  
+  .close-icon:hover {
+    color: #1167AB; /* Secondary Blue */
+  }
+  
+  .popup-contact-form-content {
+    padding: 15px; /* Reduced padding */
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Reduced gap */
+  }
+  
+  .form-outline {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .form-outline.col-lg-12 {
+    flex: 0 0 100%;
+  }
+  
+  .form-outline.col-50 {
+    flex: 0 0 calc(50% - 7.5px); /* Adjusted for reduced gap */
+  }
+  
+  .form-outline input,
+  .form-outline textarea {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-size: 14px; /* Reduced font size */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000000; /* Text Black */
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-outline input:focus,
+  .form-outline textarea:focus {
+    border-color: #CF3B33; /* Primary Red */
+    outline: none;
+  }
+  
+  .form-outline textarea {
+    resize: none; /* Disable resize to prevent overflow */
+    height: 80px; /* Fixed height to fit content */
+  }
+  
+  .form-submit {
+    text-align: center;
+    margin-top: 15px; /* Reduced margin */
+  }
+  
+  .submit-button {
+    background-color: #CF3B33; /* Primary Red */
+    color: #FFFFFF; /* White text */
+    padding: 8px 25px; /* Reduced padding */
+    border: none;
+    border-radius: 25px;
+    font-size: 14px; /* Reduced font size */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #1167AB; /* Secondary Blue */
+  }
+  
+  .status-message {
+    text-align: center;
+    margin-top: 10px; /* Reduced margin */
+    font-size: 12px; /* Reduced font size */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #666666; /* Secondary Text Gray */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 767px) {
+    .popup-contact-form {
+      width: 90%;
+      max-width: 350px; /* Further reduced for mobile */
+    }
+  
+    .popup-contact-form-header h3 {
+      font-size: 18px;
+    }
+  
+    .close-icon {
+      font-size: 16px;
+    }
+  
+    .form-outline.col-50 {
+      flex: 0 0 100%;
+    }
+  
+    .form-outline input,
+    .form-outline textarea {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .form-outline textarea {
+      height: 60px; /* Adjusted for mobile */
+    }
+  
+    .submit-button {
+      font-size: 12px;
+      padding: 6px 20px;
+    }
+  
+    .status-message {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .popup-contact-form {
+      width: 85%;
+      max-width: 300px;
+    }
+  
+    .popup-contact-form-header h3 {
+      font-size: 16px;
+    }
+  
+    .close-icon {
+      font-size: 14px;
+    }
+  
+    .form-outline input,
+    .form-outline textarea {
+      font-size: 11px;
+      padding: 5px;
+    }
+  
+    .form-outline textarea {
+      height: 50px;
+    }
+  
+    .submit-button {
+      font-size: 11px;
+      padding: 5px 15px;
+    }
+  }

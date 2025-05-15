@@ -1,0 +1,93 @@
+import { useState } from 'react';
+import axios from 'axios';
+
+function ContactForm() {
+  const [formData, setFormData] = useState({
+    fullName: '',
+    contactNumber: '',
+    email: '',
+    website: '',
+    message: '',
+  });
+  const [status, setStatus] = useState('');
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, formData, {
+        withCredentials: true,
+      });
+      setStatus('Message sent successfully!');
+      setFormData({ fullName: '', contactNumber: '', email: '', website: '', message: '' });
+    } catch (error) {
+      setStatus('Failed to send message. Please try again.');
+    }
+  };
+
+  return (
+    <form className="contact-form" onSubmit={handleSubmit}>
+      <div className="custom-row">
+        <div className="form-outline col-lg-12">
+          <input
+            type="text"
+            name="fullName"
+            value={formData.fullName}
+            onChange={handleChange}
+            placeholder="Full Name*"
+            required
+          />
+        </div>
+        <div className="form-outline col-50">
+          <input
+            type="text"
+            name="contactNumber"
+            value={formData.contactNumber}
+            onChange={handleChange}
+            placeholder="Contact Number*"
+            required
+          />
+        </div>
+        <div className="form-outline col-50">
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Email*"
+            required
+          />
+        </div>
+        <div className="form-outline col-lg-12">
+          <input
+            type="url"
+            name="website"
+            value={formData.website}
+            onChange={handleChange}
+            placeholder="Website*"
+            required
+          />
+        </div>
+        <div className="form-outline col-lg-12">
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            placeholder="Message*"
+            rows="8"
+            required
+          ></textarea>
+        </div>
+        <div className="form-submit">
+          <button type="submit" className="submit-button">Send Message ❯</button>
+        </div>
+      </div>
+      {status && <p className="status-message">{status}</p>}
+    </form>
+  );
+}
+
+export default ContactForm;

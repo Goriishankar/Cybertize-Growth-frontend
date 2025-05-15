@@ -1,0 +1,26 @@
+/* Loader Styles */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light background */
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #CF3B33; /* Red border */
+    border-top: 4px solid transparent; /* Transparent top border for spinning effect */
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* Spinning animation */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

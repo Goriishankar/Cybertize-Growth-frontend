@@ -1,0 +1,50 @@
+.counter-section {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow as in the image */
+  }
+  
+  .counter-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .counter-item {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .counter-item h3 {
+    font-size: 48px;
+    color: #CF3B33;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .counter-item p {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 768px) {
+    .counter-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .counter-item h3 {
+      font-size: 36px;
+    }
+  
+    .counter-item p {
+      font-size: 14px;
+    }
+  }
