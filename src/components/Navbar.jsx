@@ -87,7 +87,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/contact"
-              className={({ isActive }) => (isActive ? 'contact-button active' : 'contact-button')}
+              className={({ isActive }) => ('contact-button')} 
               onClick={() => setIsOpen(false)}
             >
               Contact

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import webDevImage1 from '../assets/web-dev1.png'; // Web Development image 1
+import webDevImage1 from '../assets/web-dev1.webp'; // Web Development image 1
 import webDevImage2 from '../assets/web-dev3.jpg'; // Web Development image 2
 import webDevImage3 from '../assets/web-dev4.jpg'; // Web Development image 3
 import webDevImage4 from '../assets/web-dev2.png'; // Web Development image 4

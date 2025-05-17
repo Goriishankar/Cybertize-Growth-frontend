@@ -1,4 +1,4 @@
-import ceoImage from '../assets/ceo-image.png';
+import ceoImage from '../assets/ceo-image.webp';
 import '../styles/ceo-notes.css';
 
 function CeoNotes() {

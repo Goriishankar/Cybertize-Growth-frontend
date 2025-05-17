@@ -1,6 +1,6 @@
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
-import aboutImage from '../assets/about-image.jpg';
+import aboutImage from '../assets/about-image.webp';
 import '../styles/about1.css';
 
 function FeatureCard({ icon, title, description }) {

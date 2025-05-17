@@ -7,7 +7,7 @@ import ClientSlider from '../components/ClientSlider';
 import Testimonials from '../components/Testimonials';
 import CeoNotes from '../components/CeoNotes';
 import Contact from './Contact';
-import heroImage from '../assets/hero-image.png';
+import heroImage from '../assets/hero-image.webp';
 import '../styles/home.css';
 
 function Home() {
