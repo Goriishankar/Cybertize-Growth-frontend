@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import seoImage1 from '../assets/seo1.png'; // On-Page Optimization image
-import seoImage2 from '../assets/seo2.png'; // Off-Page Optimization image
-import seoImage3 from '../assets/seo1.png'; // Keywords Strategy image
-import seoImage4 from '../assets/seo1.png'; // New section image
+import seoImage2 from '../assets/seo2.jpg'; // Off-Page Optimization image
+import seoImage3 from '../assets/seo3.jpg'; // Keywords Strategy image
+import seoImage4 from '../assets/seo4.jpg'; // New section image
 import '../styles/on-page-optimization.css';
 
 function OnPageOptimization() {

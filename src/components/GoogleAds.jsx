@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import googleAdsImage1 from '../assets/google-ads1.png'; // Google Ads image 1
-import googleAdsImage2 from '../assets/google-ads1.png'; // Google Ads image 2
-import googleAdsImage3 from '../assets/google-ads1.png'; // Google Ads image 3
-import googleAdsImage4 from '../assets/google-ads1.png'; // Google Ads image 4
+import googleAdsImage2 from '../assets/google-ads2.png'; // Google Ads image 2
+import googleAdsImage3 from '../assets/google-ads3.png'; // Google Ads image 3
+import googleAdsImage4 from '../assets/google-ads4.png'; // Google Ads image 4
 import '../styles/google-ads.css';
 
 function GoogleAds() {

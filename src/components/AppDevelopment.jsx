@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import appDevImage1 from '../assets/app-dev1.png'; // App Development image 1
 import appDevImage2 from '../assets/app-dev2.png'; // App Development image 2
-import appDevImage3 from '../assets/app-dev1.png'; // App Development image 3
-import appDevImage4 from '../assets/app-dev2.png'; // App Development image 4
+import appDevImage3 from '../assets/app-dev3.jpg'; // App Development image 3
+import appDevImage4 from '../assets/app-dev4.jpg'; // App Development image 4
 import '../styles/app-development.css';
 
 function AppDevelopment() {

@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import smmImage1 from '../assets/smm1.png'; // SMM image 1
-import smmImage2 from '../assets/smm1.png'; // SMM image 2
-import smmImage3 from '../assets/smm1.png'; // SMM image 3
-import smmImage4 from '../assets/smm1.png'; // SMM image 4
+import smmImage1 from '../assets/smm1.jpg'; // SMM image 1
+import smmImage2 from '../assets/smm2.jpg'; // SMM image 2
+import smmImage3 from '../assets/smm3.jpg'; // SMM image 3
+import smmImage4 from '../assets/smm4.jpg'; // SMM image 4
 import '../styles/smm.css';
 
 function Smm() {

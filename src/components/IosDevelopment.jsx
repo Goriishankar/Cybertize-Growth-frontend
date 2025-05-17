@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import iosDevImage1 from '../assets/ios-dev1.png'; // iOS Development image 1
-import iosDevImage2 from '../assets/ios-dev1.png'; // iOS Development image 2
-import iosDevImage3 from '../assets/ios-dev1.png'; // iOS Development image 3
-import iosDevImage4 from '../assets/ios-dev1.png'; // iOS Development image 4
+import iosDevImage1 from '../assets/ios-dev1.jpg'; // iOS Development image 1
+import iosDevImage2 from '../assets/ios-dev2.jpg'; // iOS Development image 2
+import iosDevImage3 from '../assets/ios-dev4.jpg'; // iOS Development image 3
+import iosDevImage4 from '../assets/ios-dev3.jpg'; // iOS Development image 4
 import '../styles/ios-development.css';
 
 function IosDevelopment() {

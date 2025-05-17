@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import webDesignImage1 from '../assets/web-design1.png'; // Web Design image 1
-import webDesignImage2 from '../assets/web-design1.png'; // Web Design image 2
-import webDesignImage3 from '../assets/web-design1.png'; // Web Design image 3
-import webDesignImage4 from '../assets/web-design1.png'; // Web Design image 4
+import webDesignImage1 from '../assets/web-design1.webp'; // Web Design image 1
+import webDesignImage2 from '../assets/web-design2.Jpg'; // Web Design image 2
+import webDesignImage3 from '../assets/web-design3.Jpg'; // Web Design image 3
+import webDesignImage4 from '../assets/web-design4.webp'; // Web Design image 4
 import '../styles/web-design.css';
 
 function WebDesign() {
