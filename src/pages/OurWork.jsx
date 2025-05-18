@@ -27,21 +27,21 @@ function OurWork() {
       image: project1,
       title: 'E-Commerce Website Overhaul',
       description: 'We transformed a struggling e-commerce brand with a sleek, responsive website and targeted SEO strategies. The result? 150% increase in organic traffic and doubled sales within 6 months.',
-      externalUrl: 'https://www.example.com/project1', // Replace with actual external URL
+      externalUrl: 'https://www.kaggle.com', // Replace with actual external URL
     },
     {
       id: '2',
       image: project2,
       title: 'Social Media Brand Boost',
       description: 'Our tailored SMM and Meta Ads campaigns skyrocketed a startup’s Instagram engagement by 200%. Authentic influencer partnerships drove brand trust and conversions.',
-      externalUrl: 'https://www.example.com/project2', // Replace with actual external URL
+      externalUrl: 'https://www.brandsboostsocial.com', // Replace with actual external URL
     },
     {
       id: '3',
       image: project3,
       title: 'Google Ads ROI Surge',
       description: 'For a local business, we crafted high-converting Google Ads campaigns that reduced cost-per-click by 40%. This led to a 3x increase in qualified leads.',
-      externalUrl: 'https://www.example.com/project3', // Replace with actual external URL
+      externalUrl: 'https://bigbusinessagency.com', // Replace with actual external URL
     },
     {
       id: '4',

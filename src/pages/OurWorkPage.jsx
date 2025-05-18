@@ -36,21 +36,21 @@ function OurWorkPage() {
       image: project1,
       title: 'E-Commerce Website Overhaul',
       description: 'We transformed a struggling e-commerce brand with a sleek, responsive website and targeted SEO strategies. The result? 150% increase in organic traffic and doubled sales within 6 months.',
-      externalUrl: 'https://www.example.com/project1',
+      externalUrl: 'https://www.kaggle.com',
     },
     {
       id: '2',
       image: project2,
       title: 'Social Media Brand Boost',
       description: 'Our tailored SMM and Meta Ads campaigns skyrocketed a startup’s Instagram engagement by 200%. Authentic influencer partnerships drove brand trust and conversions.',
-      externalUrl: 'https://www.example.com/project2',
+      externalUrl: 'https://www.brandsboostsocial.com',
     },
     {
       id: '3',
       image: project3,
       title: 'Google Ads ROI Surge',
       description: 'For a local business, we crafted high-converting Google Ads campaigns that reduced cost-per-click by 40%. This led to a 3x increase in qualified leads.',
-      externalUrl: 'https://www.example.com/project3',
+      externalUrl: 'https://bigbusinessagency.com',
     },
     {
       id: '4',
@@ -59,62 +59,7 @@ function OurWorkPage() {
       description: 'We developed a user-friendly iOS app for a fitness brand, integrated with seamless features. The app achieved 10,000 downloads in its first month.',
       externalUrl: 'https://www.example.com/project4',
     },
-    {
-      id: '5',
-      image: project5,
-      title: 'SEO Optimization for SaaS',
-      description: 'Boosted a SaaS company’s organic rankings with advanced SEO strategies, leading to a 120% increase in traffic and higher conversions.',
-      externalUrl: 'https://www.example.com/project5',
-    },
-    {
-      id: '6',
-      image: project6,
-      title: 'Influencer Marketing Campaign',
-      description: 'Executed a successful influencer marketing campaign for a beauty brand, resulting in a 180% increase in social media engagement.',
-      externalUrl: 'https://www.example.com/project6',
-    },
-    {
-      id: '7',
-      image: project7,
-      title: 'Website Redesign for Non-Profit',
-      description: 'Revamped a non-profit’s website with a modern design, improving user engagement and donations by 90% within 3 months.',
-      externalUrl: 'https://www.example.com/project7',
-    },
-    {
-      id: '8',
-      image: project8,
-      title: 'Email Marketing Automation',
-      description: 'Implemented email marketing automation for an e-commerce client, increasing open rates by 50% and boosting sales significantly.',
-      externalUrl: 'https://www.example.com/project8',
-    },
-    {
-      id: '9',
-      image: project9,
-      title: 'Custom Web App Development',
-      description: 'Developed a custom web app for a logistics company, streamlining their operations and reducing costs by 30%.',
-      externalUrl: 'https://www.example.com/project9',
-    },
-    {
-      id: '10',
-      image: project10,
-      title: 'Meta Ads for Fashion Brand',
-      description: 'Created targeted Meta Ads for a fashion brand, achieving a 5x return on ad spend and growing their online sales.',
-      externalUrl: 'https://www.example.com/project10',
-    },
-    {
-      id: '11',
-      image: project11,
-      title: 'Site Audit for Tech Startup',
-      description: 'Conducted a comprehensive site audit for a tech startup, fixing critical issues and improving site performance by 60%.',
-      externalUrl: 'https://www.example.com/project11',
-    },
-    {
-      id: '12',
-      image: project12,
-      title: 'Content Strategy for Blog',
-      description: 'Developed a content strategy for a travel blog, increasing monthly visitors by 200% through SEO-optimized articles.',
-      externalUrl: 'https://www.example.com/project12',
-    },
+    
   ];
 
   // Pagination Logic
