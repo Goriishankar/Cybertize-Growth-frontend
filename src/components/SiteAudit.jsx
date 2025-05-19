@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import siteAuditImage1 from '../assets/site-audit1.png'; // Site Audit image 1
-import siteAuditImage2 from '../assets/site-audit1.png'; // Site Audit image 2
-import siteAuditImage3 from '../assets/site-audit1.png'; // Site Audit image 3
-import siteAuditImage4 from '../assets/site-audit1.png'; // Site Audit image 4
+import siteAuditImage1 from '../assets/site-audit1.jpg'; // Site Audit image 1
+import siteAuditImage2 from '../assets/site-audit2.jpg'; // Site Audit image 2
+import siteAuditImage3 from '../assets/site-audit3.jpg'; // Site Audit image 3
+import siteAuditImage4 from '../assets/site-audit4.jpg'; // Site Audit image 4
 import '../styles/site-audit.css';
 
 function SiteAudit() {

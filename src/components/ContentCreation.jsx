@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import contentCreationImage1 from '../assets/content-creation1.png'; // Content Creation image 1
-import contentCreationImage2 from '../assets/content-creation1.png'; // Content Creation image 2
-import contentCreationImage3 from '../assets/content-creation1.png'; // Content Creation image 3
-import contentCreationImage4 from '../assets/content-creation1.png'; // Content Creation image 4
+import contentCreationImage1 from '../assets/content-creation1.jpg'; // Content Creation image 1
+import contentCreationImage2 from '../assets/content-creation2.jpg'; // Content Creation image 2
+import contentCreationImage3 from '../assets/content-creation3.jpg'; // Content Creation image 3
+import contentCreationImage4 from '../assets/content-creation4.jpg'; // Content Creation image 4
 import '../styles/content-creation.css';
 
 function ContentCreation() {

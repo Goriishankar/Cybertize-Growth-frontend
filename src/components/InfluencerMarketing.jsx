@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import influencerMarketingImage1 from '../assets/influencer-marketing1.png'; // Influencer Marketing image 1
-import influencerMarketingImage2 from '../assets/influencer-marketing1.png'; // Influencer Marketing image 2
-import influencerMarketingImage3 from '../assets/influencer-marketing1.png'; // Influencer Marketing image 3
-import influencerMarketingImage4 from '../assets/influencer-marketing1.png'; // Influencer Marketing image 4
+import influencerMarketingImage1 from '../assets/influencer-marketing1.jpg'; // Influencer Marketing image 1
+import influencerMarketingImage2 from '../assets/influencer-marketing2.jpg'; // Influencer Marketing image 2
+import influencerMarketingImage3 from '../assets/influencer-marketing3.jpg'; // Influencer Marketing image 3
+import influencerMarketingImage4 from '../assets/influencer-marketing4.jpg'; // Influencer Marketing image 4
 import '../styles/influencer-marketing.css';
 
 function InfluencerMarketing() {

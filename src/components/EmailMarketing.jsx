@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import emailMarketingImage1 from '../assets/email-marketing1.png'; // Email Marketing image 1
-import emailMarketingImage2 from '../assets/email-marketing1.png'; // Email Marketing image 2
-import emailMarketingImage3 from '../assets/email-marketing1.png'; // Email Marketing image 3
-import emailMarketingImage4 from '../assets/email-marketing1.png'; // Email Marketing image 4
+import emailMarketingImage1 from '../assets/email-marketing1.jpg'; // Email Marketing image 1
+import emailMarketingImage2 from '../assets/email-marketing2.jpg'; // Email Marketing image 2
+import emailMarketingImage3 from '../assets/email-marketing3.jpg'; // Email Marketing image 3
+import emailMarketingImage4 from '../assets/email-marketing4.jpg'; // Email Marketing image 4
 import '../styles/email-marketing.css';
 
 function EmailMarketing() {

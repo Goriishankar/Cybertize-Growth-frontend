@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import metaAdsImage1 from '../assets/meta-ads1.png'; // Meta Ads image 1
-import metaAdsImage2 from '../assets/meta-ads1.png'; // Meta Ads image 2
-import metaAdsImage3 from '../assets/meta-ads1.png'; // Meta Ads image 3
-import metaAdsImage4 from '../assets/meta-ads1.png'; // Meta Ads image 4
+import metaAdsImage1 from '../assets/meta-ads1.jpg'; // Meta Ads image 1
+import metaAdsImage2 from '../assets/meta-ads2.jpg'; // Meta Ads image 2
+import metaAdsImage3 from '../assets/meta-ads3.jpg'; // Meta Ads image 3
+import metaAdsImage4 from '../assets/meta-ads4.jpg'; // Meta Ads image 4
 import '../styles/meta-ads.css';
 
 function MetaAds() {
