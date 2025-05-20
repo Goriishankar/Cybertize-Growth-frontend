@@ -1,8 +1,8 @@
 import About from '../pages/About';
-import ClientSlider from '../components/ClientSlider';
-import '../styles/clients-first.css';
+import ClientSlider from './ClientSlider';
+import '../styles/aboutus-page.css';
 
-function ClientsFirst() {
+function Aboutuspage() {
     return (
         <div>
             <About />
@@ -39,4 +39,4 @@ function ClientsFirst() {
     );
 }
 
-export default ClientsFirst;
+export default Aboutuspage;

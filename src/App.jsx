@@ -23,7 +23,7 @@ import Contact from './pages/Contact';
 import PopupContactForm from './components/PopupContactForm';
 import OurWork from './pages/OurWork';
 import OurWorkPage from './pages/OurWorkPage';
-import ClientsFirst from './components/ClientsFirst';
+import Aboutuspage from './components/Aboutus-page';
 import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
 import Blog from './pages/Blog';
@@ -56,7 +56,7 @@ function App() {
             <Route path="/our-work" element={<OurWork />} />
             <Route path="/our-work-page" element={<OurWorkPage />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/ClientsFirst" element={<ClientsFirst />} />
+            <Route path="/Aboutus-page" element={<Aboutuspage />} />
             <Route path="/blog" element={<Blog />} /> 
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />

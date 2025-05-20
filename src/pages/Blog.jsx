@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import '../styles/blog.css';
 
 // img from file
@@ -37,7 +38,6 @@ function Blog() {
             comments: 0,
             link: "/",
         },
-
     ];
 
     // Pagination Logic
@@ -49,7 +49,7 @@ function Blog() {
     const startIndex = (currentPage - 1) * postsPerPage;
     const currentPosts = blogPosts.slice(startIndex, startIndex + postsPerPage);
 
-    // Handle Previous and Next buttons
+    // Handle Timeline and Next buttons
     const handlePrevious = () => {
         if (currentPage > 1) {
             setCurrentPage(currentPage - 1);
@@ -72,6 +72,85 @@ function Blog() {
 
     return (
         <div className="blog-sec" id="blog-sec-home">
+            <Helmet>
+                <title>Blog - Digital Marketing Agency in Jhunjhunu | Cybertize Growth</title>
+                <meta
+                    name="description"
+                    content="Read expert insights on digital marketing from Cybertize Growth, a leading digital marketing agency in Jhunjhunu, offering SEO, SMM, and more in India."
+                />
+                <meta
+                    name="keywords"
+                    content="digital marketing agency in Jhunjhunu, digital marketing, digital marketing agency, digital marketing agency in India, digital marketing strategy, SEO, SMM, Cybertize Growth"
+                />
+                <meta name="author" content="Cybertize Growth Team" />
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="https://cybertizegrowth.com/blog" />
+                {/* Open Graph Tags */}
+                <meta
+                    property="og:title"
+                    content="Blog - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+                />
+                <meta
+                    property="og:description"
+                    content="Explore digital marketing tips and strategies from Cybertize Growth, a top digital marketing agency in Jhunjhunu, serving businesses in India."
+                />
+                <meta
+                    property="og:image"
+                    content="https://cybertizegrowth.com/images/blog-hero.webp"
+                />
+                <meta property="og:url" content="https://cybertizegrowth.com/blog" />
+                <meta property="og:type" content="website" />
+                {/* Twitter Card Tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta
+                    property="twitter:title"
+                    content="Blog - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+                />
+                <meta
+                    property="twitter:description"
+                    content="Get expert digital marketing insights from Cybertize Growth, a leading agency in Jhunjhunu."
+                />
+                <meta
+                    property="twitter:image"
+                    content="https://cybertizegrowth.com/images/blog-hero.webp"
+                />
+                {/* JSON-LD Structured Data */}
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Blog",
+                        "name": "Cybertize Growth Blog",
+                        "url": "https://cybertizegrowth.com/blog",
+                        "description": "Blog by Cybertize Growth, a digital marketing agency in Jhunjhunu, offering insights on digital marketing strategies, SEO, and SMM for businesses in India.",
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "Cybertize Growth",
+                            "url": "https://cybertizegrowth.com",
+                            "logo": "https://cybertizegrowth.com/images/logo.png",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressLocality": "Jhunjhunu",
+                                "addressRegion": "Rajasthan",
+                                "addressCountry": "India"
+                            }
+                        },
+                        "blogPost": [
+                            {
+                                "@type": "BlogPosting",
+                                "headline": "How to Create a Winning Digital Marketing Strategy in 2025: A Step-by-Step Guide",
+                                "datePublished": "2025-05-18",
+                                "author": {
+                                    "@type": "Person",
+                                    "name": "Mukul Choudhary"
+                                },
+                                "description": "A step-by-step guide on creating a winning digital marketing strategy in 2025 by Cybertize Growth, a digital marketing agency in Jhunjhunu."
+                            }
+                        ]
+                    }
+                `}</script>
+            </Helmet>
             <div className="seoServicesTitle test">
                 <h2>All Blog Articles</h2>
             </div>
@@ -108,7 +187,7 @@ function Blog() {
                                     className={`page ${page === currentPage ? "current" : ""}`}
                                     onClick={() => {
                                         setCurrentPage(page);
-                                        window.scrollTo(0, 0); // Scroll to top on page change
+                                        window.scrollTo(0, 0);
                                     }}
                                     aria-label={`Go to page ${page}`}
                                 >

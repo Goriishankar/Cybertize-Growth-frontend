@@ -77,7 +77,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/ClientsFirst"
+              to="/Aboutus-page"
               className={({ isActive }) => (isActive ? 'active' : '')}
               onClick={() => setIsOpen(false)}
             >
