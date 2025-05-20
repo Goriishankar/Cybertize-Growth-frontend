@@ -34,7 +34,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/services"
+              to="/ServicesPage"
               className={({ isActive }) =>
                 isActive ||
                 location.pathname === '/web-development' ||

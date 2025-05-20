@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; // Import Link for navigation
+import { Link } from 'react-router-dom';
 import '../styles/servicesbox.css';
 
 function ServiceCard({ title, description, icon, link }) {
@@ -7,7 +7,7 @@ function ServiceCard({ title, description, icon, link }) {
       <i className={`fas ${icon} service-icon`}></i>
       <h3>{title}</h3>
       <p>{description}</p>
-      <Link to={link} className="read-more">Read more..</Link> {/* Replaced <a> with <Link> */}
+      <Link to={link} className="read-more">Read more..</Link>
     </div>
   );
 }
@@ -42,7 +42,7 @@ function Services() {
       title: "SEO (Search Engine Optimization)",
       description: "Rank higher on Google with our proven SEO strategies. Drive organic traffic and boost your brand visibility with expert optimization.",
       icon: "fa-search",
-      link: "/OnPageOptimization", // Fixed link case to match route
+      link: "/OnPageOptimization",
     },
     {
       title: "SMM (Social Media Marketing)",

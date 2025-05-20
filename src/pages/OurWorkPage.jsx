@@ -1,16 +1,9 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import project1 from '../assets/project1.jpg';
 import project2 from '../assets/project2.jpg';
 import project3 from '../assets/project3.jpg';
 import project4 from '../assets/project4.jpg';
-import project5 from '../assets/project1.jpg'; // Dummy images, replace with actual ones
-import project6 from '../assets/project2.jpg';
-import project7 from '../assets/project3.jpg';
-import project8 from '../assets/project4.jpg';
-import project9 from '../assets/project1.jpg';
-import project10 from '../assets/project2.jpg';
-import project11 from '../assets/project3.jpg';
-import project12 from '../assets/project4.jpg';
 import ClientSlider from '../components/ClientSlider';
 import '../styles/ourwork.css';
 
@@ -59,7 +52,6 @@ function OurWorkPage() {
       description: 'We developed a user-friendly iOS app for a fitness brand, integrated with seamless features. The app achieved 10,000 downloads in its first month.',
       externalUrl: 'https://www.example.com/project4',
     },
-    
   ];
 
   // Pagination Logic
@@ -91,6 +83,73 @@ function OurWorkPage() {
 
   return (
     <section className="ourwork-section">
+      <Helmet>
+        <title>Our Work - Digital Marketing Agency in Jhunjhunu | Cybertize Growth</title>
+        <meta
+          name="description"
+          content="Explore Cybertize Growth's successful projects as a leading digital marketing agency in Jhunjhunu, delivering SEO, SMM, and web development for businesses in India."
+        />
+        <meta
+          name="keywords"
+          content="digital marketing agency in Jhunjhunu, digital marketing, digital marketing agency, digital marketing agency in India, SEO, SMM, web development, Cybertize Growth"
+        />
+        <meta name="author" content="Cybertize Growth Team" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://cybertizegrowth.com/our-work" />
+        {/* Open GraphXH Tags */}
+        <meta
+          property="og:title"
+          content="Our Work - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+        />
+        <meta
+          property="og:description"
+          content="See the impactful projects by Cybertize Growth, a top digital marketing agency in Jhunjhunu, offering SEO, SMM, and web development services."
+        />
+        <meta
+          property="og:image"
+          content="https://cybertizegrowth.com/images/our-work-hero.webp"
+        />
+        <meta property="og:url" content="https://cybertizegrowth.com/our-work" />
+        <meta property="og:type" content="website" />
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:title"
+          content="Our Work - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+        />
+        <meta
+          property="twitter:description"
+          content="Discover Cybertize Growth's projects as a leading digital marketing agency in Jhunjhunu."
+        />
+        <meta
+          property="twitter:image"
+          content="https://cybertizegrowth.com/images/our-work-hero.webp"
+        />
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json">{`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Our Work",
+            "url": "https://cybertizegrowth.com/our-work",
+            "description": "Explore successful projects by Cybertize Growth, a digital marketing agency in Jhunjhunu, offering SEO, SMM, and web development services.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cybertize Growth",
+              "url": "https://cybertizegrowth.com",
+              "logo": "https://cybertizegrowth.com/images/logo.png",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jhunjhunu",
+                "addressRegion": "Rajasthan",
+                "addressCountry": "India"
+              }
+            }
+          }
+        `}</script>
+      </Helmet>
       <div className="ourwork-header">
         <h2>Our Work</h2>
       </div>
