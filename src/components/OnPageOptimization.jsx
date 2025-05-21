@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import seoImage1 from '../assets/seo1.png'; // On-Page Optimization image
 import seoImage2 from '../assets/seo2.jpg'; // Off-Page Optimization image
@@ -8,6 +9,73 @@ import '../styles/on-page-optimization.css';
 function OnPageOptimization() {
   return (
     <div>
+      <Helmet>
+        <title>SEO Services - Digital Marketing Agency in Jhunjhunu | Cybertize Growth</title>
+        <meta
+          name="description"
+          content="Boost your online presence with Cybertize Growth's SEO services in Jhunjhunu. We offer on-page optimization, off-page optimization, keywords strategy, and technical SEO."
+        />
+        <meta
+          name="keywords"
+          content="SEO services, digital marketing agency in Jhunjhunu, on-page optimization, off-page optimization, keywords strategy, technical SEO, digital marketing agency, Cybertize Growth"
+        />
+        <meta name="author" content="Cybertize Growth Team" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://cybertizegrowth.com/seo-services" />
+        {/* Open Graph Tags */}
+        <meta
+          property="og:title"
+          content="SEO Services - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+        />
+        <meta
+          property="og:description"
+          content="Cybertize Growth provides expert SEO services in Jhunjhunu, including on-page optimization, off-page optimization, keywords strategy, and technical SEO to enhance your website's ranking."
+        />
+        <meta
+          property="og:image"
+          content="https://cybertizegrowth.com/images/seo-services-hero.webp"
+        />
+        <meta property="og:url" content="https://cybertizegrowth.com/seo-services" />
+        <meta property="og:type" content="website" />
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:title"
+          content="SEO Services - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+        />
+        <meta
+          property="twitter:description"
+          content="Explore Cybertize Growth's SEO services in Jhunjhunu, from on-page and off-page optimization to keywords strategy and technical SEO."
+        />
+        <meta
+          property="twitter:image"
+          content="https://cybertizegrowth.com/images/seo-services-hero.webp"
+        />
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json">{`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "SEO Services",
+            "url": "https://cybertizegrowth.com/seo-services",
+            "description": "Cybertize Growth offers expert SEO services in Jhunjhunu, specializing in on-page optimization, off-page optimization, keywords strategy, and technical SEO to boost your online presence.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cybertize Growth",
+              "url": "https://cybertizegrowth.com",
+              "logo": "https://cybertizegrowth.com/images/logo.png",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jhunjhunu",
+                "addressRegion": "Rajasthan",
+                "addressCountry": "India"
+              }
+            }
+          }
+        `}</script>
+      </Helmet>
       {/* Section 1: On-Page Optimization (Image Left, Content Right) */}
       <div className="optimization-row">
         <div className="optimization-image-col">

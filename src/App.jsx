@@ -42,7 +42,6 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/web-development" element={<WebDevelopment />} />
             <Route path="/web-design" element={<WebDesign />} />
-            <Route path="/web-design" element={<WebDesign />} />
             <Route path="/app-development" element={<AppDevelopment />} />
             <Route path="/ios-development" element={<IosDevelopment />} /> 
             <Route path="/OnPageOptimization" element={<OnPageOptimization />} />

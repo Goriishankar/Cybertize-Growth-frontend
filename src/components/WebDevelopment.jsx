@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import webDevImage1 from '../assets/web-dev1.webp'; // Web Development image 1
 import webDevImage2 from '../assets/web-dev3.webp'; // Web Development image 2
@@ -8,6 +9,73 @@ import '../styles/web-development.css';
 function WebDevelopment() {
   return (
     <div>
+      <Helmet>
+        <title>Web Development - Digital Marketing Agency in Jhunjhunu | Cybertize Growth</title>
+        <meta
+          name="description"
+          content="Discover expert web development services at Cybertize Growth, a leading digital marketing agency in Jhunjhunu. We offer custom websites, responsive design, e-commerce solutions, and web maintenance."
+        />
+        <meta
+          name="keywords"
+          content="web development, digital marketing agency in Jhunjhunu, custom web development, responsive design, e-commerce solutions, web maintenance, digital marketing agency, Cybertize Growth"
+        />
+        <meta name="author" content="Cybertize Growth Team" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://cybertizegrowth.com/web-development" />
+        {/* Open Graph Tags */}
+        <meta
+          property="og:title"
+          content="Web Development - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+        />
+        <meta
+          property="og:description"
+          content="Explore Cybertize Growth's web development services in Jhunjhunu, including custom websites, responsive design, e-commerce platforms, and web maintenance."
+        />
+        <meta
+          property="og:image"
+          content="https://cybertizegrowth.com/images/web-development-hero.webp"
+        />
+        <meta property="og:url" content="https://cybertizegrowth.com/web-development" />
+        <meta property="og:type" content="website" />
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:title"
+          content="Web Development - Digital Marketing Agency in Jhunjhunu | Cybertize Growth"
+        />
+        <meta
+          property="twitter:description"
+          content="Cybertize Growth offers top-tier web development services in Jhunjhunu, from custom websites to e-commerce solutions and maintenance."
+        />
+        <meta
+          property="twitter:image"
+          content="https://cybertizegrowth.com/images/web-development-hero.webp"
+        />
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json">{`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Web Development",
+            "url": "https://cybertizegrowth.com/web-development",
+            "description": "Cybertize Growth provides expert web development services in Jhunjhunu, including custom web development, responsive design, e-commerce solutions, and web maintenance.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cybertize Growth",
+              "url": "https://cybertizegrowth.com",
+              "logo": "https://cybertizegrowth.com/images/logo.png",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jhunjhunu",
+                "addressRegion": "Rajasthan",
+                "addressCountry": "India"
+              }
+            }
+          }
+        `}</script>
+      </Helmet>
       {/* Section 1: Custom Web Development (Image Left, Content Right) */}
       <div className="webdev-row">
         <div className="webdev-image-col">
