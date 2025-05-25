@@ -7,11 +7,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 export default defineConfig({
   plugins: [
     react(),
-    ViteImageOptimizer({
-      jpg: { quality: 80 },
-      png: { quality: 80 },
-      webp: { quality: 80 },
-    }),
+    ViteImageOptimizer(), // Uncomment if using image optimizer
     viteStaticCopy({
       targets: [
         {
