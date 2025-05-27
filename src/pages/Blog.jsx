@@ -73,7 +73,7 @@ function Blog() {
     return (
         <div className="blog-sec" id="blog-sec-home">
             <Helmet>
-                <title>Blog - Digital Marketing Agency in Jhunjhunu | Cybertize Growth</title>
+                <title>Digital Marketing Agency in Jhunjhunu | Cybertize Growth</title>
                 <meta
                     name="description"
                     content="Read expert insights on digital marketing from Cybertize Growth, a leading digital marketing agency in Jhunjhunu, offering SEO, SMM, and more in India."

@@ -15,7 +15,7 @@ function Home() {
   return (
     <section className="hero-section">
       <Helmet>
-        <title>Best Digital Marketing Agency in Jhunjhunu - Cybertize Growth</title>
+        <title>Best Digital Marketing Agency in Jhunjhunu | Cybertize Growth</title>
         <meta
           name="description"
           content="Cybertize Growth, the top digital marketing agency in Jhunjhunu, offers expert SEO, SMM, Google Ads, and web development services across India to boost your brand."
