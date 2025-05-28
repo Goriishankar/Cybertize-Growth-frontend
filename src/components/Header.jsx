@@ -9,7 +9,7 @@ function Header() {
           <i class="fa-solid fa-phone-volume"></i> +91 7891731414
           </span>
           <span className="contact-item">
-            <i className="fas fa-envelope"></i> cryptomuku@gmail.com
+            <i className="fas fa-envelope"></i>support@cybertizegrowth.com
           </span>
         </div>
         <div className="social-links">

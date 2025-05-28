@@ -20,7 +20,7 @@ function Footer() {
               www.cybertizegrowth.com
             </a>
           </p>
-          <p>Send Emails to: <a href="/">cryptomuku@gmail.com</a></p>
+          <p>Send Emails to: <a href="/">support@cybertizegrowth.com</a></p>
           <p>#03, Mp colony BKN</p>
         </div>
         <div className="footer-column footer-links">

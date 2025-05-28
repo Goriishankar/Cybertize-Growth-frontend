@@ -23,7 +23,7 @@ function Contact() {
             </div>
             <div className="group">
               <label>Email Us</label>
-              <a href="mailto:hello@.com">cryptomuku@gmail.com</a>
+              <a href="mailto:hello@.com">support@cybertizegrowth.com</a>
             </div>
           </div>
           <div className="social-info">
