@@ -11,7 +11,7 @@ function CeoNotes() {
             Welcome to Cybertize Growth, where we empower businesses with innovative digital solutions. As CEO, I am committed to driving your success through our expertise in web development, SEO, and digital marketing, building a partnership that fuels your growth.
           </p>
           <div className="signature">
-            <span className="signature-name">Mukul Choudhary</span>
+            <span className="signature-name">Mukul Poonia</span>
             <span className="signature-title">Founder & CEO</span>
           </div>
         </div>

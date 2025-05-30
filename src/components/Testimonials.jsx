@@ -54,7 +54,7 @@ function Testimonials() {
       designation: "CEO, JKL Enterprises",
     },
     {
-      quote: "[Agency Name]’s expertise in SEO and digital marketing helped us achieve our business goals faster than expected.",
+      quote: "volza Grow Galoble’s expertise in SEO and digital marketing helped us achieve our business goals faster than expected.",
       name: "Sonia Kapoor",
       designation: "Beauty Brand",
     },

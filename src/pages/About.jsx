@@ -47,7 +47,7 @@ function About() {
           <h2>About Us</h2>
           <h3>About Cybertize Growth</h3>
           <p>
-            Welcome to Cybertize Growth, your trusted partner in digital success. Founded by Mukul Choudhary, a passionate digital marketing expert and CEO, we are a full-service digital marketing agency dedicated to helping businesses thrive in the online world. From web development and SEO to social media marketing and Google Ads, we offer tailored solutions to drive traffic, leads, and conversions.
+            Welcome to Cybertize Growth, your trusted partner in digital success. Founded by Mukul Poonia, a passionate digital marketing expert and CEO, we are a full-service digital marketing agency dedicated to helping businesses thrive in the online world. From web development and SEO to social media marketing and Google Ads, we offer tailored solutions to drive traffic, leads, and conversions.
           </p>
           <Link to="/contact" className="about-button">Let’s Grow Together</Link>
         </div>
